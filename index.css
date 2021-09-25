@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  text-indent: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 12px;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.list {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+}
+
+.todo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+}
